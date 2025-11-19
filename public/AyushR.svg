@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Dark Purple Background -->
+  <rect width="256" height="256" rx="32" fill="#2d0a4e"></rect>
+
+  <!-- Light Purple Symbol -->
+  <g stroke="#e9d5ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    
+    <!-- < symbol -->
+    <path d="M50 70 L20 128 L50 186"></path>
+
+    <!-- A letter (shifted left, closer to <) -->
+    <path d="M80 186 L110 70 L140 186"></path>
+    <path d="M92 132 L128 132"></path>
+
+    <!-- Forward Slash `/` (proper direction) -->
+    <path d="M185 70 L155 186"></path>
+
+    <!-- > symbol -->
+    <path d="M196 70 L236 128 L196 186"></path>
+
+  </g>
+</svg>
