@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -51,28 +52,26 @@ export default function Home() {
           competitive programming with 200+ DSA problems solved.
         </p>
 
-        {/* Buttons */}
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
-          <a
-            href="/projects"
-            className="px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl text-lg transition-all hover:scale-105"
-          >
-            View Projects
-          </a>
-          <a
-            href="/resume"
-            className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl text-lg transition-all hover:scale-105"
-          >
-            Resume
-          </a>
-          <a
-            href="/contact"
-            className="px-8 py-3 bg-gray-700 hover:bg-gray-800 rounded-xl text-lg transition-all hover:scale-105"
-          >
-            Contact Me
-          </a>
-        </div>
-
+  <Link
+    to="/projects"
+    className="px-8 py-3 bg-purple-600 hover:bg-purple-700 rounded-xl text-lg transition-all hover:scale-105"
+  >
+    View Projects
+  </Link>
+  <Link
+    to="/resume"
+    className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-xl text-lg transition-all hover:scale-105"
+  >
+    Resume
+  </Link>
+  <Link
+    to="/contact"
+    className="px-8 py-3 bg-gray-700 hover:bg-gray-800 rounded-xl text-lg transition-all hover:scale-105"
+  >
+    Contact Me
+  </Link>
+</div>
         {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
