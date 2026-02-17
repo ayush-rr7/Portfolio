@@ -57,7 +57,10 @@ export default function Contact() {
       </div>
 
       {/* Contact Form */}
-      <div className="bg-white/10 p-6 rounded-xl border border-white/10">
+        <a href="mailto:ayushranjan6976@gmail.com">
+            Send Email
+        </a>
+      {/* <div className="bg-white/10 p-6 rounded-xl border border-white/10">
         <h2 className="text-2xl font-semibold mb-4">Send Me a Message</h2>
 
         <form className="space-y-4 max-w-xl mx-auto">
@@ -78,7 +81,7 @@ export default function Contact() {
           <button className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition w-full md:w-auto">
             Send Message
           </button>
-        </form>
+        </form> */}
       </div>
     </PageWrapper>
     </section>
