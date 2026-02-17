@@ -17,7 +17,7 @@ export default function Projects() {
       desc: "Task management application with add, update, delete features. Clean UI and RESTful backend with MongoDB storage.",
       links: {
         // demo removed
-        github: "https://github.com/ayush-rr7/task_IELTS",
+        github: "https://github.com/ayush-rr7/Task-Management-Application",
       },
     },
   ];
