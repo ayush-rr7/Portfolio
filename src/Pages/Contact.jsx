@@ -81,8 +81,8 @@ export default function Contact() {
           <button className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition w-full md:w-auto">
             Send Message
           </button>
-        </form> */}
-      </div>
+        </form> 
+      </div>*/}
     </PageWrapper>
     </section>
   );
